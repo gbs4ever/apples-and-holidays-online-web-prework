@@ -70,7 +70,7 @@ supplies.join(", ")
 binding.pry
 end
 end
-  puts value1
+
 end
 
   # iterate through holiday_hash and print items such that your readout resembles:
