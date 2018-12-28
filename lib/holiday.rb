@@ -66,7 +66,7 @@ puts season.to_s.capitalize!
 holiday each do |holiday , supplies|
 puts holiday.split("_")
 binding.pry
-.capitalize!
+#.capitalize!
 
  value1=value1.join
 end
