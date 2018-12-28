@@ -62,12 +62,14 @@ end
 #end
 def all_supplies_in_holidays(holiday_hash)
 holiday_hash.collect do |keys ,value1|
-value1=keys.to_s
-value1=value1.split
+
+
+=keys.to_s
+value1.split
 
 value1.collect do |k,v|
   k.capitalize!
-  binding.pry
+  #binding.pry
  value1=value1.join
 end
 end
