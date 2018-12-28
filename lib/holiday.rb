@@ -61,10 +61,9 @@ end
 #return holiday_hash
 #end
 def all_supplies_in_holidays(holiday_hash)
-holiday_hash.collect do |keys ,value1|
+holiday_hash.collect do |season ,holiday|
+puts season.to_s.capitalize!
 
-
-=keys.to_s
 value1.split
 
 value1.collect do |k,v|
