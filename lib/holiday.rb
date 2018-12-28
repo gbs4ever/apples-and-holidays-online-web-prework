@@ -63,12 +63,11 @@ end
 def all_supplies_in_holidays(holiday_hash)
 holiday_hash.collect do |season ,holiday|
 puts season.to_s.capitalize!
+holiday each do |holiday , supplies|
+puts holiday.split("_")
+binding.pry
+.capitalize!
 
-value1.split
-
-value1.collect do |k,v|
-  k.capitalize!
-  #binding.pry
  value1=value1.join
 end
 end
